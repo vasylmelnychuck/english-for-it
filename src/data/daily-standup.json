@@ -1,0 +1,130 @@
+{
+  "id": "daily-standup",
+  "courseId": "everyday",
+  "title": "Daily Standup",
+  "level": "A2-B1",
+  "description": "Розкажи про зроблене, плани та блокери на щоденному стендапі.",
+  "exercises": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "Yesterday I _____ the bug and created a pull request.",
+      "options": [
+        "fix",
+        "fixed",
+        "have fix",
+        "fixes"
+      ],
+      "answer": 1,
+      "explanation": "Past Simple: fixed — завершена дія в минулому."
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "prompt": "I am currently _____ on the authentication issue.",
+      "answer": "working",
+      "acceptableAnswers": [
+        "working"
+      ],
+      "hint": "Present Continuous: work + ing",
+      "explanation": "Present Continuous: am + working."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "prompt": "Which phrase is best for a daily standup?",
+      "options": [
+        "I did some things.",
+        "Yesterday I completed the API endpoint.",
+        "Give me new tasks now.",
+        "The project is bad."
+      ],
+      "answer": 1,
+      "explanation": "На standup корисно конкретно називати виконану роботу."
+    },
+    {
+      "id": "q4",
+      "type": "sentence-order",
+      "prompt": "Склади правильне речення про блокер.",
+      "tokens": [
+        "I",
+        "have",
+        "a",
+        "blocker",
+        "with",
+        "the",
+        "staging",
+        "environment."
+      ],
+      "answer": [
+        "I",
+        "have",
+        "a",
+        "blocker",
+        "with",
+        "the",
+        "staging",
+        "environment."
+      ],
+      "explanation": "I have a blocker with the staging environment — природна фраза на стендапі."
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "prompt": "What does “I will look into it” mean?",
+      "options": [
+        "Я це проігнорую",
+        "Я це досліджу",
+        "Я вже це завершив",
+        "Я це видалю"
+      ],
+      "answer": 1,
+      "explanation": "Look into означає дослідити проблему."
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "prompt": "Have you _____ the fix?",
+      "answer": "deployed",
+      "acceptableAnswers": [
+        "deployed"
+      ],
+      "hint": "Past participle of deploy",
+      "explanation": "Present Perfect: Have + subject + past participle (deployed)."
+    },
+    {
+      "id": "q7",
+      "type": "dialogue",
+      "prompt": "Колега: “I'm blocked by a database issue.” Як ввічливо запропонувати допомогу?",
+      "options": [
+        "That's your problem.",
+        "Can I help you investigate it?",
+        "Just ignore it."
+      ],
+      "answer": 1,
+      "explanation": "Can I help you…? — ввічлива пропозиція допомоги."
+    },
+    {
+      "id": "q8",
+      "type": "sentence-order",
+      "prompt": "Склади речення про очікування перевірки коду.",
+      "tokens": [
+        "I'm",
+        "waiting",
+        "for",
+        "the",
+        "code",
+        "review."
+      ],
+      "answer": [
+        "I'm",
+        "waiting",
+        "for",
+        "the",
+        "code",
+        "review."
+      ],
+      "explanation": "Waiting for — очікувати на щось."
+    }
+  ]
+}
